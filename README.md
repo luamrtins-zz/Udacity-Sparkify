@@ -28,23 +28,23 @@ The steps to solve this problem is:
  - How can we defined a user churn?
 I selected using the Cancellation Confirmation events to define the churn, which happen for both paid and free users.
 
-![churn](/images/chrun.png))
+![churn](/image/churn_def.png))
 
  - Is there any demographic patter?
 
 We can say that male gender seems to be more likely to churn than womens.
-![gender](/images/gender.png))
+![gender](/image/gender.png))
 
  - Is there a numerical difference between the number of songs played between churn and non-churn users?
 Average number of songs played for churn users are 699.8846153846154 and for non-churn users are 1108.1734104046243
 
  - The number of days since the registration can be a significant factor to the churn users?
 If the past days since registration are higher than 140 the chance of the user churn falls dramatically. That is a very important feature.
-![pdays](/images/daysp.png))
+![pdays](/image/daysp.png))
 
  - Can we ensure that if the user is liking a song with thumbs up the chance of churn reduce?
 The "Thumbs up", "Add Playlist" and "Add Friend" seems to have less churn users rate.
-![pages](/images/pages.png))
+![pages](/image/pages.png))
  It may happen that not all questions get answers, but the point is to get some insights.<br>
  
  So, after these analysis and insights, it is time to model! Our problem is a classification problem, so we will use a supervised machine learning algorithm.  
