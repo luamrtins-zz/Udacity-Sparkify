@@ -10,6 +10,8 @@ If the identification of these users were accurate enough before they leave, som
 To complete this project it was provided a large dataset that contains all events described above.
 Here we use a tiny subset (128MB) of the full dataset available (12GB).<br>
 
+Medium blog post: https://medium.com/@luisaamartins10/churn-prediction-using-pyspark-ml-37df4d3479c
+
 ## Libraries
 - Anaconda 3
 
